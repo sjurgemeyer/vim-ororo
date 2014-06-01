@@ -58,3 +58,9 @@ hi DiffAdd    guifg=#ffffff guibg=#257404 gui=NONE ctermfg=NONE ctermbg=darkgree
 hi DiffDelete guifg=#ffffff guibg=#a5382d gui=NONE ctermfg=NONE ctermbg=darkred   cterm=NONE
 hi DiffChange guifg=#ffffff guibg=#0f4a68 gui=NONE ctermfg=NONE ctermbg=darkblue  cterm=NONE
 hi DiffText   guifg=#ffffff guibg=#3a76a2 gui=NONE ctermfg=NONE ctermbg=blue      cterm=NONE
+
+"CSV
+hi CSVColumnEven       guifg=#000000 guibg=#a5382d gui=NONE      ctermfg=black ctermbg=darkred  cterm=NONE
+hi CSVColumnOdd        guifg=#000000 guibg=#0f4a68 gui=NONE      ctermfg=black ctermbg=darkblue cterm=NONE
+hi CSVColumnHeaderEven guifg=#ffffff guibg=#a5382d gui=underline ctermfg=white ctermbg=darkred  cterm=underline
+hi CSVColumnHeaderOdd  guifg=#ffffff guibg=#0f4a68 gui=underline ctermfg=white ctermbg=darkblue cterm=underline
