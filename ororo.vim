@@ -64,3 +64,11 @@ hi CSVColumnEven       guifg=#000000 guibg=#a5382d gui=NONE      ctermfg=black c
 hi CSVColumnOdd        guifg=#000000 guibg=#0f4a68 gui=NONE      ctermfg=black ctermbg=darkblue cterm=NONE
 hi CSVColumnHeaderEven guifg=#ffffff guibg=#a5382d gui=underline ctermfg=white ctermbg=darkred  cterm=underline
 hi CSVColumnHeaderOdd  guifg=#ffffff guibg=#0f4a68 gui=underline ctermfg=white ctermbg=darkblue cterm=underline
+
+
+function HideCursorLine()
+  hi CursorLine   guibg=#000000 guifg=NONE    gui=NONE ctermfg=NONE  ctermbg=black cterm=NONE
+endfunction
+function ShowCursorLine()
+  hi CursorLine   guibg=#242424 guifg=NONE    gui=NONE ctermfg=NONE  ctermbg=darkgray cterm=NONE
+endfunction
