@@ -14,7 +14,7 @@ let colors_name = "ororo"
 
 " Vim >= 7.0 specific colors
 if version >= 700
-  hi CursorLine   guibg=#242424 guifg=NONE    gui=NONE ctermfg=NONE  ctermbg=darkgray cterm=NONE
+  hi CursorLine   guibg=#242424 guifg=NONE    gui=NONE ctermfg=NONE  ctermbg=236 cterm=NONE
   hi CursorColumn guibg=#2d2d2d guifg=NONE    gui=NONE ctermfg=black ctermbg=darkgray cterm=NONE
   hi ColorColumn  guibg=#2d2d2d guifg=NONE    gui=NONE ctermfg=NONE  ctermbg=darkgray cterm=NONE
   hi MatchParen   guifg=#f6f3e8 guibg=#457bcf gui=bold ctermfg=white ctermbg=blue     cterm=bold
@@ -54,10 +54,10 @@ hi Number     guifg=#e5786d guibg=NONE    gui=NONE   ctermfg=red        ctermbg=
 hi Special    guifg=#b7c6aa guibg=NONE    gui=NONE   ctermfg=lightgreen ctermbg=NONE     cterm=NONE
 
 " Diff colors
-hi DiffAdd    guifg=#ffffff guibg=#257404 gui=NONE ctermfg=NONE ctermbg=darkgreen cterm=NONE
-hi DiffDelete guifg=#ffffff guibg=#a5382d gui=NONE ctermfg=NONE ctermbg=darkred   cterm=NONE
-hi DiffChange guifg=#ffffff guibg=#0f4a68 gui=NONE ctermfg=NONE ctermbg=darkblue  cterm=NONE
-hi DiffText   guifg=#ffffff guibg=#3a76a2 gui=NONE ctermfg=NONE ctermbg=blue      cterm=NONE
+hi DiffAdd    guifg=#ffffff guibg=#257404 gui=NONE ctermfg=NONE ctermbg=28   cterm=NONE
+hi DiffDelete guifg=#ffffff guibg=#a5382d gui=NONE ctermfg=NONE ctermbg=52   cterm=NONE
+hi DiffChange guifg=#ffffff guibg=#0f4a68 gui=NONE ctermfg=NONE ctermbg=18   cterm=NONE
+hi DiffText   guifg=#ffffff guibg=#3a76a2 gui=NONE ctermfg=NONE ctermbg=18   cterm=NONE
 
 "CSV
 hi CSVColumnEven       guifg=#000000 guibg=#a5382d gui=NONE      ctermfg=black ctermbg=darkred  cterm=NONE
