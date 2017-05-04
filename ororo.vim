@@ -53,6 +53,12 @@ hi PreProc    guifg=#e5786d guibg=NONE    gui=NONE   ctermfg=red        ctermbg=
 hi Number     guifg=#e5786d guibg=NONE    gui=NONE   ctermfg=red        ctermbg=NONE     cterm=NONE
 hi Special    guifg=#b7c6aa guibg=NONE    gui=NONE   ctermfg=lightgreen ctermbg=NONE     cterm=NONE
 
+" Tabs
+hi TabLine      guifg=Black  guibg=gray     ctermfg=Black  ctermbg=gray     cterm=NONE	 gui=NONE
+hi TabLineFill  guifg=Black  guibg=gray     ctermfg=Black  ctermbg=gray     cterm=NONE 	 gui=NONE
+hi TabLineSel   guifg=White  guibg=black     ctermfg=White  ctermbg=black   cterm=NONE 	 gui=NONE
+
+
 " Diff colors
 hi DiffAdd    guifg=#ffffff guibg=#257404 gui=NONE ctermfg=NONE ctermbg=28   cterm=NONE
 hi DiffDelete guifg=#ffffff guibg=#a5382d gui=NONE ctermfg=NONE ctermbg=52   cterm=NONE
