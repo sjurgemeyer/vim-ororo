@@ -56,7 +56,7 @@ hi Special    guifg=#b7c6aa guibg=NONE    gui=NONE   ctermfg=lightgreen ctermbg=
 " Tabs
 hi TabLine      guifg=Black  guibg=gray     ctermfg=Black  ctermbg=gray     cterm=NONE	 gui=NONE
 hi TabLineFill  guifg=Black  guibg=gray     ctermfg=Black  ctermbg=gray     cterm=NONE 	 gui=NONE
-hi TabLineSel   guifg=White  guibg=black     ctermfg=White  ctermbg=black   cterm=NONE 	 gui=NONE
+hi TabLineSel   guifg=White  guibg=black    ctermfg=White  ctermbg=black   cterm=NONE 	 gui=NONE
 
 
 " Diff colors
